@@ -20,6 +20,7 @@ describe 'form' do
   it 'shows a new form that submits content and redirects and prints out params' do
     visit new_genre_path
 
+
     fill_in 'genre[name]', with: "My genre name"
 
     click_on "Create Genre"
